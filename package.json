@@ -1,0 +1,11 @@
+{
+  "name": "math-expr-evaluator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Emile Shodiev <emile.shodiev@yandex.ru> (http://shodiev.ru)",
+  "license": "ISC",
+  "dependencies": {
+    "tokenizer2000": "github:flerokoo/tokenizer2000#v1"
+  }
+}
