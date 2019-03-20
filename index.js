@@ -243,20 +243,51 @@ let evaluate = (rpn, defines) => {
     return stack[0].value;
 }
 
+// EXAMPLE
+//
+// let result = parse("2*sin(pi/2) + 5**(2*x)").evaluate([
+//     {
+//         type: "function",
+//         name: "sin",
+//         length: 1,
+//         execute: arg => Math.sin(arg)
+//     },
+//     {
+//         type: "function",
+//         name: "cos",
+//         length: 1,
+//         execute: arg => Math.cos(arg)
+//     },
+//     {
+//         type: "function",
+//         name: "tan",
+//         length: 1,
+//         execute: arg => Math.tan(arg)
+//     },
+//     {
+//         type: "function",
+//         name: "ctg",
+//         length: 1,
+//         execute: arg => 1/Math.tan(arg)
+//     },
+//     {
+//         type: "variable",
+//         name: "pi",
+//         value: Math.PI
+//     },
+//     {
+//         type: "variable",
+//         name: "e",
+//         value: Math.exp(1)
+//     },
+//     {
+//         type: "variable",
+//         name: "x",
+//         value: 2
+//     },
+    
+// ]);
 
-let parsed = parse("sin(x)");
+// console.log(result)
 
-console.log(parsed + "")
-console.log(parsed.evaluate([
-    {
-        type: "function",
-        name: "sin",
-        length: 1,
-        execute: arg => Math.sin(arg)
-    },
-    {
-        type: "variable",
-        name: "x",
-        value: 1
-    }
-]));
+module.exports = parse;
