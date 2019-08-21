@@ -10,7 +10,7 @@ Tokenization is performed using my other module [tokenizer2000](https://github.c
 
 ## Why?
 
-See __Why?__ section of the [tokenizer2000](https://github.com/flerokoo/tokenizer2000). Also to impress girls (i hope).
+See __Why?__ section of the [tokenizer2000](https://github.com/flerokoo/tokenizer2000). Also to impress girls (lol)
 
 
 
